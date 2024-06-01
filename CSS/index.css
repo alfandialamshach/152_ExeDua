@@ -50,3 +50,7 @@ h1{
     font-size: 1.8em;
     margin-top: 0;
   }
+  .media-container p {
+    font-size: 1em;
+    line-height: 1.6;
+  }

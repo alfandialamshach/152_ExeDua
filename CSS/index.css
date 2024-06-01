@@ -82,3 +82,14 @@ h1{
     width: 200px;
     transition: background-color 0.3s ease;
   }
+  button:hover {
+    background-color: #187bcd;
+  }
+  
+  button svg {
+    margin-right: 10px;
+  }
+  
+  button span {
+    display: inline-block;
+  }

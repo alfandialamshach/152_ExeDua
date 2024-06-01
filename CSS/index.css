@@ -53,4 +53,17 @@ h1{
   .media-container p {
     font-size: 1em;
     line-height: 1.6;
-  } 
+  }
+  audio, video {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+  }

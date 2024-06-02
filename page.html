@@ -6,3 +6,49 @@
     <title>Formulir</title>
     <link rel="stylesheet" href="Dokumen/CSS/page.css">
 </head>
+<body>
+    <div class="form">
+        
+        <div class="title">Formulir Pendaftaran Anggota Manchester City<br><span>Isi formulir di bawah ini</span></div>
+        <form action="" onsubmit="showAlert(event)">
+            <!-- Textfield Input -->
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" class="input" required><br>
+            <!-- Date Input -->
+            <label for="tanggal_lahir">Tanggal Lahir:</label><br>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" class="input" required><br>
+            <!-- Dropdown Input -->
+            <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+            <select id="jenis_kelamin" name="jenis_kelamin" class="input" required>
+                <option value="">Pilih</option>
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+                <option value="lainnya">Lainnya</option>
+            </select><br>
+            <!-- Radio Button Input -->
+            <label>Peran dalam Anggota:</label><br>
+            <input type="radio" id="peran_setia" name="peran" value="setia" required>
+            <label for="peran_setia">Pendukung Setia</label>
+            <input type="radio" id="peran_dutaclub" name="peran" value="dutaclub" required>
+            <label for="peran_dutaclub">Duta Klub</label>
+            <input type="radio" id="peran_komunitas" name="peran" value="komunitas" required>
+            <label for="peran_komunitas">Penggerak Komunitas</label>
+            <input type="radio" id="peran_informasi" name="peran" value="informasi" required>
+            <label for="peran_informasi">Sumber Informasi</label><br>
+            <!-- Textarea Input -->
+            <label for="alamat">Alamat:</label><br>
+            <textarea id="alamat" name="alamat" class="input" rows="4" required></textarea><br>
+            <!-- Textfield Input -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" class="input" required><br>
+            <!-- Textfield Input -->
+            <label for="telepon">Nomor WhatsApp:</label><br>
+            <input type="tel" id="telepon" name="telepon" class="input" required><br>
+            <!-- Submit Button -->
+            <button type="submit" class="button-confirm">Submit</button>
+            <button onclick="window.location.href='index.html'" class="back-button" type="button">Kembali</button> 
+        </form>
+    </div>
+    <script src="Dokumen/Java/script.js"></script>
+</body>
+</html>
